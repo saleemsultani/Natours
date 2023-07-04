@@ -16,6 +16,8 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
+
+// start express
 const app = express();
 
 // pug is a template engine which will allow us to create template
